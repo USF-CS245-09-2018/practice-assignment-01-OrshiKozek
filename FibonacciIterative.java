@@ -16,5 +16,6 @@ public class FibonacciIterative implements Fibonacci {
                 fib2 = result; // n-1 becomes the value of the next fib number, ie nextfib
             }
         }
+        return result;
     }
 }

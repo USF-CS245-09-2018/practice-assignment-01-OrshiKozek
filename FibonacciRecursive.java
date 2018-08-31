@@ -4,10 +4,10 @@ public class FibonacciRecursive implements Fibonacci {
         int Fib1 = 0;
         int Fib2 = 1;
         
-	    if (n == 1){
+	    if (n == 0){
 		    return Fib1; 
 	    }
-	    else if(n == 2){
+	    else if(n == 1){
 		    return Fib2;
 	    }
 	    else{
