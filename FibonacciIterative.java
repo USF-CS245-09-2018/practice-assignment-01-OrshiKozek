@@ -1,6 +1,6 @@
 public class FibonacciIterative implements Fibonacci {
 
-    public static int fibonacci(int n){
+    public int fibonacci(int n){
         int fib1 = 0;
         int fib2 = 1;
         int result = 0;

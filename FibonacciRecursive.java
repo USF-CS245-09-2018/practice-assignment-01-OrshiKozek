@@ -1,6 +1,6 @@
 public class FibonacciRecursive implements Fibonacci {
 	
-	public static int fibonacci(int n){
+	public int fibonacci(int n){
         int Fib1 = 0;
         int Fib2 = 1;
         
@@ -11,7 +11,7 @@ public class FibonacciRecursive implements Fibonacci {
 		    return Fib2;
 	    }
 	    else{
-		    return recursiveFib(n-1) + recursiveFib(n-2);
+		    return fibonacci(n-1) + fibonacci(n-2);
         }
     }
 }

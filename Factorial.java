@@ -1,4 +1,4 @@
-package edu.usfca.cs.cs245;
+//package edu.usfca.cs.cs245;// I must get rid of this in order for the program to work
 
 public interface Factorial {
 	

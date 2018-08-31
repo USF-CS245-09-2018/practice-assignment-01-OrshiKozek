@@ -1,6 +1,6 @@
 public class FactorialRecursive implements Factorial {
 	
-	public static int factorial(int n){
+	public int factorial(int n){
 	    if (n == 0){
 		    return 1;
 	    }
@@ -8,7 +8,7 @@ public class FactorialRecursive implements Factorial {
 		    return 1;
 	    }
 	    else{
-		    return n*recursiveFact(n-1);
+		    return n*factorial(n-1);
         }
     }
 }
